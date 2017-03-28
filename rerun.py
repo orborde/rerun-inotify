@@ -5,7 +5,7 @@ import Queue
 PROCEND  = 'PROCEND'
 MODIFY   = 'MODIFY'
 TIMEDONE = 'TIMEDONE'
-EVENTS = set([PROCEND, MODIFY, TIMEDONE])
+EVENTS   = set([PROCEND, MODIFY, TIMEDONE])
 
 class State:
     def modify(self):
